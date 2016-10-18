@@ -3,6 +3,17 @@
 @font-face {
   font-family: 'Bravo SC';
   src: url('../fonts/BravoSC.otf');
+  font-weight: 300;
+}
+@font-face {
+  font-family: 'Bravo RG';
+  src: url('../fonts/BravoRG.otf');
+  font-weight: 300;
+}
+@font-face {
+  font-family: 'Bravo SCT';
+  src: url('../fonts/BravoSCT.otf');
+  font-weight: 300;
 }
 @font-face {
   font-family: 'Nunito Light';
@@ -21,9 +32,33 @@
 }
 
 
+.bravo-title{
+  font-family: 'Bravo SC';
+  font-size: 4em;
+  text-transform: uppercase;
+  color: $bk;
+}
+/* Header */
+
+header {
+  background-image: url(../img/Hero-image.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  .cortina{
+   // background-color: rgba(0,0,0,0.1);
+    padding: 12% 0;
+    .box-h {
+      background-color: rgba(242, 243, 243, 0.8);
+      padding: 4% 5%;
+    }
+  }
+}
+
+
 /* ----- Estilos anteriores ---------*/
 /*Generales*/
-header, section, footer {
+section, footer {
   padding: 7% 0;
 }
 h1, h2, h3, h4, h5, h6 {
@@ -139,11 +174,6 @@ nav .navbar {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  padding: 9%;
-}
-.box-h {
-  background-color: rgba(242, 243, 243, 0.6);
-  padding: 4% 0;
 }
 .box-w {
   margin-bottom: 2%;
