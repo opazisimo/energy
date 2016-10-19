@@ -6806,10 +6806,10 @@ button.close {
 /* Navbar */
 .navbar {
   margin-bottom: 0px !important;
-  padding: 10px !important;
+  padding: 0px 0px 30px 0px !important;
   background-color: #FFFFFF !important; }
   .navbar .navbar-brand img {
-    width: 70%; }
+    width: 100%; }
   .navbar .navbar-right li a {
     font-family: 'Bravo SC';
     font-size: 30px;
@@ -6817,6 +6817,8 @@ button.close {
     color: #1a83b0;
     margin: 10px;
     letter-spacing: 1px; }
+    .navbar .navbar-right li a i {
+      margin-left: 5px; }
     .navbar .navbar-right li a:hover {
       color: #1e9496; }
 
@@ -6838,7 +6840,7 @@ header {
         margin: 0 auto; }
       header .interior .caja-wh .bravo-title {
         font-family: 'Bravo SC';
-        font-size: 30px;
+        font-size: 40px;
         text-transform: uppercase;
         color: #000000;
         margin: 10px;
@@ -6860,14 +6862,13 @@ header {
 
 /* Quienes somos */
 #who {
-  margin: 80px 0px; }
+  margin: 100px 0px; }
   #who .titu {
-    font-size: 30px;
+    font-size: 40px;
     margin: 0px 0px 30px 0px; }
   #who .parraf {
     color: #6c6c6c;
     font-family: 'Nunito Regular';
-    font-size: 12px;
     line-height: 20px; }
 
 /* Servicios */
@@ -6877,11 +6878,11 @@ header {
   background-repeat: no-repeat;
   background-position: center;
   padding: 80px 0px; }
+  #servicios .titugral {
+    font-size: 40px;
+    margin: 0px 0px 50px 0px; }
   #servicios .cont-serv {
     margin: 10px 0px; }
-    #servicios .cont-serv .titugral {
-      font-size: 30px;
-      margin: 0px 0px 50px 0px; }
     #servicios .cont-serv .expli {
       background-color: #FFFFFF;
       padding: 30px;
