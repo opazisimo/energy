@@ -6909,7 +6909,8 @@ header {
 #proyectos {
   margin: 50px 0px 20px 0px; }
   #proyectos .pres {
-    margin-bottom: 30px !important; }
+    margin-bottom: 30px !important;
+    font-size: 40px !important; }
   #proyectos .titu2 {
     color: #000000;
     font-family: 'Bravo RG'; }
@@ -6942,7 +6943,8 @@ header {
   margin-top: -19px; }
   #contact .titu {
     color: #FFFFFF !important;
-    margin-bottom: 30px; }
+    margin-bottom: 30px;
+    font-size: 40px !important; }
   #contact .boton {
     background-color: #1e9496;
     color: #FFFFFF;
@@ -6964,12 +6966,24 @@ header {
     font-family: 'Bravo RG';
     font-size: 20px; }
 
-/*
-.input-group-addon {
-  padding: 6px 8%;
-  border: 1px solid rgb(0, 152, 116);
-  background-color: rgb(0, 152, 116);
-  color: #fff;
-}*/
+/* Footer */
+footer {
+  padding: 50px 0px;
+  background-color: #606060;
+  border-top: 2px solid #3b3b3b; }
+  footer a {
+    color: #FFFFFF;
+    margin: 0px 10px; }
+  footer .separed {
+    color: #FFFFFF; }
+  footer .parraf {
+    color: #FFFFFF;
+    font-family: 'Nunito Light';
+    font-size: 16px; }
+  footer .sello {
+    color: #FFFFFF;
+    font-family: 'Nunito Light';
+    font-size: 12px;
+    letter-spacing: 1px; }
 
 /*# sourceMappingURL=main.css.map */
