@@ -74,20 +74,58 @@
   }
 
 /* Quienes somos */
-#who{
-  margin: 80px 0px;
-  .titu {
-    color: $lblue;
-    font-family: 'Bravo SC';
-    font-size: 30px;
-    text-transform: uppercase;
-    margin: 0px 0px 30px 0px;
-    letter-spacing: 1px;
+  #who{
+    margin: 80px 0px;
+    .titu {
+      font-size: 30px;
+      margin: 0px 0px 30px 0px;
+    }
+    .parraf {
+      color: $graytx;
+      font-family: 'Nunito Regular';
+      font-size: 12px;
+      line-height: 20px;
+    }
   }
-  .parraf {
-    color: $graytx;
-    font-family: 'Nunito Regular';
-    font-size: 12px;
-    line-height: 20px;
+
+/* Servicios */
+#servicios{
+  background: url(../img/pattern.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 80px 0px;
+  .cont-serv{
+    margin: 10px 0px;
+    .titugral {
+      font-size: 30px;
+      margin: 0px 0px 50px 0px;
+    }
+    .expli{
+      background-color: $wh;
+      padding: 30px;
+      margin-top: 10px;
+      .sec{
+        font-size: 25px;
+        margin: 0px 0px 20px 0px;
+      }
+      .parraf {
+        color: $graytx;
+        font-family: 'Nunito Regular';
+        font-size: 12px;
+        line-height: 20px;
+        margin-bottom: 30px;
+      }
+      .lee{
+        color: $lblue;
+        text-decoration: underline;
+        font-family: 'Nunito Regular';
+        font-size: 14px;
+      }
+    }
+    img{
+      width: 100%;
+      margin-top: 10px;
+    }
   }
 }
