@@ -6905,4 +6905,30 @@ header {
       width: 100%;
       margin-top: 10px; }
 
+/* Proyectos y clientes */
+#proyectos {
+  margin: 50px 0px 20px 0px; }
+  #proyectos .pres {
+    margin-bottom: 30px !important; }
+  #proyectos .titu2 {
+    color: #000000;
+    font-family: 'Bravo RG'; }
+  #proyectos .parraf {
+    color: #6c6c6c;
+    font-family: 'Nunito Regular';
+    line-height: 20px; }
+  #proyectos .client {
+    font-style: italic;
+    font-family: 'Nunito Regular'; }
+  #proyectos .boton {
+    background-color: #1e9496;
+    color: #FFFFFF;
+    border-radius: 0px !important;
+    font-family: 'Bravo SC';
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 16px;
+    padding: 3px 60px;
+    margin: 50px 0px; }
+
 /*# sourceMappingURL=main.css.map */
