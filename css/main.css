@@ -6602,61 +6602,7 @@ button.close {
   .hidden-print {
     display: none !important; } }
 /*# sourceMappingURL=bootstrap.css.map */
-/* Navbar */
-.navbar {
-  margin-bottom: 0px !important;
-  padding: 10px !important;
-  background-color: #FFFFFF !important; }
-  .navbar .navbar-brand img {
-    width: 70%; }
-  .navbar .navbar-right li a {
-    font-family: 'Bravo SC';
-    font-size: 30px;
-    text-transform: uppercase;
-    color: #1a83b0;
-    margin: 10px;
-    letter-spacing: 1px; }
-    .navbar .navbar-right li a:hover {
-      color: #1e9496; }
-
-/* Header */
-header {
-  background-image: url(../img/Hero-image.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  margin-top: 0px !important; }
-  header .interior {
-    padding: 10% 30% 2% 30%; }
-    header .interior .caja-wh {
-      padding: 25px 0px;
-      background-color: rgba(254, 254, 254, 0.75); }
-      header .interior .caja-wh .divider {
-        border: 1px solid #1e9496;
-        width: 5%;
-        margin: 0 auto; }
-      header .interior .caja-wh .bravo-title {
-        font-family: 'Bravo SC';
-        font-size: 30px;
-        text-transform: uppercase;
-        color: #000000;
-        margin: 10px;
-        letter-spacing: 1px; }
-    header .interior .more {
-      margin: 15% 0%;
-      font-family: 'Nunito Light'; }
-      header .interior .more a {
-        color: #FFFFFF; }
-        header .interior .more a:hover {
-          text-decoration: none; }
-      header .interior .more .aprende {
-        margin-bottom: -5px;
-        font-size: 12px; }
-      header .interior .more i {
-        font-size: 30px;
-        margin-top: 0px;
-        display: block; }
-
+/* Variables */
 /* Tipograf├¡as */
 @font-face {
   font-family: 'Bravo SC';
@@ -6851,5 +6797,75 @@ header {
   .made {
     font-size: 15px;
   }*/
+/* Navbar */
+.navbar {
+  margin-bottom: 0px !important;
+  padding: 10px !important;
+  background-color: #FFFFFF !important; }
+  .navbar .navbar-brand img {
+    width: 70%; }
+  .navbar .navbar-right li a {
+    font-family: 'Bravo SC';
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #1a83b0;
+    margin: 10px;
+    letter-spacing: 1px; }
+    .navbar .navbar-right li a:hover {
+      color: #1e9496; }
+
+/* Header */
+header {
+  background-image: url(../img/Hero-image.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: 0px !important; }
+  header .interior {
+    padding: 10% 30% 2% 30%; }
+    header .interior .caja-wh {
+      padding: 25px 0px;
+      background-color: rgba(254, 254, 254, 0.75); }
+      header .interior .caja-wh .divider {
+        border: 1px solid #1e9496;
+        width: 5%;
+        margin: 0 auto; }
+      header .interior .caja-wh .bravo-title {
+        font-family: 'Bravo SC';
+        font-size: 30px;
+        text-transform: uppercase;
+        color: #000000;
+        margin: 10px;
+        letter-spacing: 1px; }
+    header .interior .more {
+      margin: 15% 0%;
+      font-family: 'Nunito Light'; }
+      header .interior .more a {
+        color: #FFFFFF; }
+        header .interior .more a:hover {
+          text-decoration: none; }
+      header .interior .more .aprende {
+        margin-bottom: -5px;
+        font-size: 12px; }
+      header .interior .more i {
+        font-size: 30px;
+        margin-top: 0px;
+        display: block; }
+
+/* Quienes somos */
+#who {
+  margin: 80px 0px; }
+  #who .titu {
+    color: #1e9496;
+    font-family: 'Bravo SC';
+    font-size: 30px;
+    text-transform: uppercase;
+    margin: 0px 0px 30px 0px;
+    letter-spacing: 1px; }
+  #who .parraf {
+    color: #6c6c6c;
+    font-family: 'Nunito Regular';
+    font-size: 12px;
+    line-height: 20px; }
 
 /*# sourceMappingURL=main.css.map */

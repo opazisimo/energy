@@ -1,6 +1,42 @@
-$wh: #FFFFFF;
-$lblue: #1e9496;
-$gray: #606060;
-$graytx: #6c6c6c;
-$bk: #000000;
-$bl-menu: #1a83b0;
+/* Variables */ 
+
+  $wh: #FFFFFF;
+  $lblue: #1e9496;
+  $gray: #606060;
+  $graytx: #6c6c6c;
+  $bk: #000000;
+  $bl-menu: #1a83b0;
+
+/* Tipografías */
+
+  @font-face {
+    font-family: 'Bravo SC';
+    src: url('../fonts/BravoSC.otf');
+    font-weight: 300;
+  }
+  @font-face {
+    font-family: 'Bravo RG';
+    src: url('../fonts/BravoRG.otf');
+    font-weight: 300;
+  }
+  @font-face {
+    font-family: 'Bravo SCT';
+    src: url('../fonts/BravoSCT.otf');
+    font-weight: 300;
+  }
+  @font-face {
+    font-family: 'Nunito Light';
+    src: url('../fonts/Nunito-Light.ttf');
+    font-weight: 300;
+  }
+  @font-face {
+    font-family: 'Nunito Regular';
+    src: url('../fonts/Nunito-Regular.ttf');
+    font-weight: 400;
+  }
+  @font-face {
+    font-family: 'Nunito Bold';
+    src: url('../fonts/Nunito-Bold.ttf');
+    font-weight: 700;
+  }
+
