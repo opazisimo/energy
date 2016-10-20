@@ -7067,4 +7067,71 @@ footer {
       width: 100%;
       margin-top: 10px; }
 
+/* Header */
+#header-project {
+  background-image: url(../img/Proyectos-clientes.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: 0px !important; }
+  #header-project .interior {
+    padding: 6% 30%; }
+    #header-project .interior .caja-wh {
+      padding: 25px 0px;
+      background-color: rgba(254, 254, 254, 0.75); }
+      #header-project .interior .caja-wh .divider {
+        border: 1px solid #1e9496;
+        width: 5%;
+        margin: 0 auto; }
+      #header-project .interior .caja-wh .bravo-title {
+        font-family: 'Bravo SC';
+        font-size: 40px;
+        text-transform: uppercase;
+        color: #000000;
+        margin: 10px;
+        letter-spacing: 1px; }
+
+#proyectos .filisima {
+  margin-top: 60px; }
+#proyectos img {
+  width: 100%; }
+#proyectos .text {
+  background-color: #f9f9f9;
+  padding: 15px 15px 50px 15px;
+  margin-top: 10px; }
+  #proyectos .text .titulisimo {
+    font-family: 'Nunito Bold'; }
+  #proyectos .text .parraf {
+    font-family: 'Nunito Light';
+    color: #606060; }
+  #proyectos .text .moas {
+    color: #1e9496;
+    font-family: 'Bravo RG';
+    letter-spacing: 1px;
+    font-size: 18px;
+    display: inline-block;
+    position: absolute;
+    bottom: 10px;
+    right: 50px; }
+  #proyectos .text .greenie {
+    border: 0.5px solid #1e9496;
+    width: 70%;
+    display: inline-block;
+    position: absolute;
+    bottom: 5px;
+    left: 30px; }
+  #proyectos .text .dist {
+    margin-bottom: 30px; }
+
+.pagination li a {
+  border: 0px !important;
+  color: #1e9496;
+  font-family: 'Bravo SC';
+  font-size: 20px; }
+.pagination li span {
+  border: 0px !important;
+  color: #1e9496;
+  font-family: 'Bravo SC';
+  font-size: 20px; }
+
 /*# sourceMappingURL=main.css.map */

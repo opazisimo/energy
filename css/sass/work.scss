@@ -1,26 +1,26 @@
-#work{
-  padding: 50px 0px 80px 0px;
-}
-#contact {
-  .boton{
-    background-color: $lblue;
-    color: $wh;
-    border-radius: 0px !important;
-    font-family: 'Bravo SC';
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    font-size: 16px;
-    margin-top: 10px;
-    border: 0px;
+// work
+  #work{
+    padding: 50px 0px 80px 0px;
   }
-  .uno{
-    padding: 3px 60px;
+  #contact {
+    .boton{
+      background-color: $lblue;
+      color: $wh;
+      border-radius: 0px !important;
+      font-family: 'Bravo SC';
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      font-size: 16px;
+      margin-top: 10px;
+      border: 0px;
+    }
+    .uno{
+      padding: 3px 60px;
+    }
+    .dos{
+      padding: 3px 30px;
+    }
   }
-  .dos{
-    padding: 3px 30px;
-  }
-}
-
 
 // Internal project
 
@@ -57,7 +57,7 @@
     }
   }
 
-  // About
+// About
 
   #quienes{
     margin-top: 30px;
@@ -104,3 +104,96 @@
       }
     }
   }
+
+// Project-client
+
+/* Header */
+
+  #header-project {
+    background-image: url(../img/Proyectos-clientes.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 0px !important;
+    .interior{
+      padding:6% 30%;
+      .caja-wh{
+        padding: 25px 0px;
+        background-color: rgba(254,254,254,0.75);
+        .divider{
+          border: 1px solid $lblue;
+          width: 5%;
+          margin: 0 auto;
+        }
+        .bravo-title{
+          font-family: 'Bravo SC';
+          font-size: 40px;
+          text-transform: uppercase;
+          color: $bk;
+          margin: 10px;
+          letter-spacing: 1px;
+        }
+      }
+    }
+  }
+
+// Proyectos
+
+#proyectos{
+  .filisima{
+    margin-top: 60px;
+  }
+  img {
+    width: 100%;
+  }
+  .text{
+    background-color: $snow;
+    padding: 15px 15px 50px 15px;
+    margin-top: 10px;
+    .titulisimo{
+    font-family: 'Nunito Bold';
+    }
+    .parraf{
+    font-family: 'Nunito Light';
+    color: $gray;
+    }
+    .moas{
+      color: $lblue;
+      font-family: 'Bravo RG';
+      letter-spacing: 1px;
+      font-size: 18px;
+      display: inline-block;
+      position: absolute;
+      bottom: 10px;
+      right: 50px;
+    }
+    .greenie{
+      border: 0.5px solid $lblue;
+      width: 70%;
+      display: inline-block;
+      position: absolute;
+      bottom: 5px;
+      left: 30px;
+    }
+    .dist{
+      margin-bottom: 30px;
+    }
+  }
+}
+
+.pagination{
+  li{
+    a{
+      border: 0px !important;
+      color: $lblue;
+      font-family: 'Bravo SC';
+      font-size: 20px;
+    }
+    span{
+      border: 0px !important;
+      color: $lblue;
+      font-family: 'Bravo SC';
+      font-size: 20px;
+    }
+  }
+}
