@@ -6803,6 +6803,21 @@ button.close {
   .made {
     font-size: 15px;
   }*/
+#contact .boton {
+  background-color: #1e9496;
+  color: #FFFFFF;
+  border-radius: 0px !important;
+  font-family: 'Bravo SC';
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 16px;
+  margin-top: 10px;
+  border: 0px; }
+#contact .uno {
+  padding: 3px 60px; }
+#contact .dos {
+  padding: 3px 30px; }
+
 /* Navbar */
 .navbar {
   margin-bottom: 0px !important;
@@ -6953,7 +6968,6 @@ header {
     text-transform: uppercase;
     letter-spacing: 1px;
     font-size: 16px;
-    padding: 3px 60px;
     margin-top: 10px;
     border: 0px; }
   #contact .form-control {
@@ -6979,7 +6993,8 @@ footer {
   footer .parraf {
     color: #FFFFFF;
     font-family: 'Nunito Light';
-    font-size: 16px; }
+    font-size: 16px;
+    margin-top: 15px; }
   footer .sello {
     color: #FFFFFF;
     font-family: 'Nunito Light';

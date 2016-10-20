@@ -5,98 +5,87 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>E2BIZ Consultores | Trabaja con Nosotros</title>
-  <link href="css/bootstrap.min.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Fresca|Nunito:400,700" rel="stylesheet">
   <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-  <nav class="navbar">
-    <div class="container">
-      <!-- Brand and toggle get grouped for better mobile display -->
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="#">
-          <img alt="Brand" src="img/logotipo/logo-mini.png">
-        </a>
-      </div>
-
-      <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-        <ul class="nav navbar-nav navbar-right">
-          <li><a href="index.html">INICIO</a></li>
-          <li><a href="about.html">QUIÉNES SOMOS</a></li>
-          <li><a href="project-client.html">PROYECTOS Y CLIENTES</a></li>
-          <li><a href="work.html">TRABAJA CON NOSOTROS</a></li>
-          <li><a href="#contact">CONTÁCTANOS</a></li>
-        </ul>
-      </div>
+<!-- Navbar -->
+<nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#"><img alt="Brand" src="img/logotipo/logo-mini.png"></a>
     </div>
-  </nav>
-  <section class="text-center">
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">MENÚ <i class="fa fa-bars" aria-hidden="true"></i></a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!-- Trabaja con nosotros -->
+  <section id="who" class="text-center">
     <div class="container">
       <div class="row">
-        <div class="col-xs-12 col-sm-12 col-md-12">
-          <h2>Trabaja con nosotros</h2>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-xs-12 col-sm-12 col-md-offset-2 col-md-8">
-          <p>There's no better way to help than to get out and experience nature for yourself.
+        <div class="col-md-8 col-md-offset-2">
+          <h2 class="titu">Trabaja con nosotros</h2>
+          <p class="parraf">There's no better way to help than to get out and experience nature for yourself.
             Donec id elit non mi porta gravida at eget metus. Donec sed odio dui. Maecenas faucibus mollis interdum.</p>
           </div>
         </div>
       </div>
     </section>
-    <section class="bg-form">
-      <div class="container">
-        <div class="row">
-          <div class="col-xs-12 col-sm-12 col-md-12">
-            <h2 class="text-center">Contáctanos</h2>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-xs-12 col-sm12 col-md-offset-3 col-md-6">
-            <form>
-              <div class="form-group">
-                <input type="name" class="form-control" id="" placeholder="Nombre">
-              </div>
-              <div class="form-group">
-                <input type="email" class="form-control" id="" placeholder="Correo Electrónico">
-              </div>
-              <div class="form-group input-group">
-                <input type="cv" class="form-control" id="cv-input" placeholder="CV">
-                <span class="input-group-addon">Subir</span>
-              </div>
-              <div class="form-group">
-                <textarea class="form-control" rows="5" placeholder="Mensaje"></textarea>
-              </div>
-              <a class="btn btn-default btn-lg center bg-green" href="#">ENVIAR</a>
-            </form>
-          </div>
+<!-- Contacto-->
+  <section id="contact" class="bg-form">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12">
+          <h2 class="titu text-center color-white">Contáctanos</h2>
         </div>
       </div>
-    </section>
-    <footer>
-      <div class="container text-center">
-        <div class="row">
-          <div class="col xs-12 col-sm-12 col-md-offset-3 col-md-6">
-            <a href="https://www.facebook.com/pages/E2biz-SoftTech/105057792908916"><i class="fa fa-facebook fa-1x" aria-hidden="true"></i></a>
-            <span class="separed">|</span>
-            <a href="#"><i class="fa fa-twitter fa-1x" aria-hidden="true"></i></a>  
-            <address>
-              Av. Pardo 601, Piso 11 Miraflores, Lima <br>
-              997.509.973 <br> 
-            </address>
-            <span>Hecho por Laboratoria</span>
-          </div>
+      <div class="row">
+        <div class="col-md-offset-4 col-md-4">
+          <form class="text-center">
+            <div class="form-group">
+              <input type="name" class="form-control" id="" placeholder="Nombre">
+            </div>
+            <div class="form-group">
+              <input type="email" class="form-control" id="" placeholder="Correo Electrónico">
+            </div>
+            <div class="form-group input-group">
+              <input type="cv" class="form-control" id="cv-input" placeholder="CV">
+              <span class="boton dos input-group-addon">Subir</span>
+            </div>
+            <div class="form-group">
+              <textarea class="form-control" rows="5" placeholder="Comentario"></textarea>
+            </div>
+            <button class="boton uno" href="#">ENVIAR</button>
+          </form>
         </div>
       </div>
-    </footer>
+    </div>
+  </section>
+<!-- Footer -->
+  <footer>
+    <div class="container text-center">
+      <div class="row">
+        <div class="col xs-12 col-sm-12 col-md-offset-3 col-md-6">
+          <a href="https://www.facebook.com/pages/E2biz-SoftTech/105057792908916"><i class="fa fa-facebook fa-1x" aria-hidden="true"></i></a>
+          <span class="separed">|</span>
+          <a href="#"><i class="fa fa-twitter fa-1x" aria-hidden="true"></i></a>  
+          <address class="parraf">
+            Av. Pardo 601, Piso 11 Miraflores, Lima <br>
+            997.509.973 <br> 
+          </address>
+          <span class="sello">Hecho por Laboratoria</span>
+        </div>
+      </div>
+    </div>
+  </footer>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
