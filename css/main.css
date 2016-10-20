@@ -7030,4 +7030,41 @@ footer {
     line-height: 20px;
     margin-bottom: 30px; }
 
+#quienes {
+  margin-top: 30px; }
+  #quienes .parrafillo {
+    color: #1e9496;
+    font-family: 'Bravo RG';
+    font-size: 20px;
+    margin-top: 40px; }
+
+#equipo {
+  background: url(../img/pattern.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 80px 0px; }
+  #equipo .titugral {
+    font-size: 40px;
+    margin: 0px 0px 50px 0px; }
+  #equipo .cont-serv {
+    margin: 10px 0px; }
+    #equipo .cont-serv .expli {
+      background-color: #FFFFFF;
+      margin-top: 10px;
+      height: 130px;
+      padding: 10px; }
+      #equipo .cont-serv .expli .sec {
+        font-size: 20px;
+        margin: 0px 0px 20px 0px; }
+      #equipo .cont-serv .expli .parraf {
+        color: #6c6c6c;
+        font-family: 'Nunito Light';
+        font-size: 16px;
+        line-height: 20px;
+        margin-bottom: 30px; }
+    #equipo .cont-serv img {
+      width: 100%;
+      margin-top: 10px; }
+
 /*# sourceMappingURL=main.css.map */

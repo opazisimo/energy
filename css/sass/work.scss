@@ -24,35 +24,83 @@
 
 // Internal project
 
-#titulo-proyectos{
-  padding: 40px 0px 60px 0px;
-  .titus {
-    color: $lblue;
-    font-family: 'Bravo RG';
-    font-size: 25px;
+  #titulo-proyectos{
+    padding: 40px 0px 60px 0px;
+    .titus {
+      color: $lblue;
+      font-family: 'Bravo RG';
+      font-size: 25px;
+    }
+    .parraf {
+      font-family: 'Nunito Regular';
+      line-height: 20px;
+      margin-bottom: 30px;
+    }
+    .uno{
+      color: $graytx;
+      font-size: 12px;
+    }
+    .dos{
+      color: $bk;
+      font-size: 16px;
+    }
   }
-  .parraf {
-    font-family: 'Nunito Regular';
-    line-height: 20px;
-    margin-bottom: 30px;
-  }
-  .uno{
-    color: $graytx;
-    font-size: 12px;
-  }
-  .dos{
-    color: $bk;
-    font-size: 16px;
-  }
-}
 
-#parrafo{
-  padding: 60px 0px;
-  .parraf {
-    color: $graytx;
-    font-family: 'Nunito Light';
-    font-size: 16px;
-    line-height: 20px;
-    margin-bottom: 30px;
+  #parrafo{
+    padding: 60px 0px;
+    .parraf {
+      color: $graytx;
+      font-family: 'Nunito Light';
+      font-size: 16px;
+      line-height: 20px;
+      margin-bottom: 30px;
+    }
   }
-}
+
+  // About
+
+  #quienes{
+    margin-top: 30px;
+    .parrafillo {
+      color: $lblue;
+      font-family: 'Bravo RG';
+      font-size: 20px;
+      margin-top: 40px;
+    }
+  }
+
+  #equipo{
+    background: url(../img/pattern.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 80px 0px;
+    .titugral {
+      font-size: 40px;
+      margin: 0px 0px 50px 0px;
+    }
+    .cont-serv{
+      margin: 10px 0px;
+      .expli{
+        background-color: $wh;
+        margin-top: 10px;
+        height: 130px;
+        padding: 10px;
+        .sec{
+          font-size: 20px;
+          margin: 0px 0px 20px 0px;
+        }
+        .parraf {
+          color: $graytx;
+          font-family: 'Nunito Light';
+          font-size: 16px;
+          line-height: 20px;
+          margin-bottom: 30px;
+        }
+      }
+      img{
+        width: 100%;
+        margin-top: 10px;
+      }
+    }
+  }
