@@ -6807,7 +6807,8 @@ button.close {
 .navbar {
   margin-bottom: 0px !important;
   padding: 0px 0px 30px 0px !important;
-  background-color: #FFFFFF !important; }
+  background-color: #FFFFFF !important;
+  border: 1px solid #FFFFFF; }
   .navbar .navbar-brand img {
     width: 100%; }
   .navbar .navbar-right li a {
@@ -7155,5 +7156,43 @@ footer {
       color: #1a83b0; }
   #redes .mid {
     margin: 0px 15px; }
+
+.modal .modal-header {
+  background: #1a83b0;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border: 0px !important; }
+  .modal .modal-header img {
+    width: 30%; }
+  .modal .modal-header .close {
+    color: #FFFFFF !important;
+    font-family: 'Bravo RG';
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 20px;
+    margin: 20px 0px;
+    text-shadow: none;
+    opacity: 1; }
+.modal .modal-body {
+  background-color: #1a83b0;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border: 0px !important; }
+  .modal .modal-body .celeste {
+    padding: 5vh 5vw;
+    background-color: #1a83b0;
+    color: #FFFFFF;
+    padding: 5vh; }
+    .modal .modal-body .celeste a {
+      color: #FFFFFF;
+      display: block;
+      font-family: 'Bravo RG';
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      font-size: 20px; }
+    .modal .modal-body .celeste img {
+      width: 15%;
+      display: block;
+      margin: 0 auto; }
 
 /*# sourceMappingURL=main.css.map */
