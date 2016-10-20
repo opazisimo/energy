@@ -20,3 +20,39 @@
     padding: 3px 30px;
   }
 }
+
+
+// Internal project
+
+#titulo-proyectos{
+  padding: 40px 0px 60px 0px;
+  .titus {
+    color: $lblue;
+    font-family: 'Bravo RG';
+    font-size: 25px;
+  }
+  .parraf {
+    font-family: 'Nunito Regular';
+    line-height: 20px;
+    margin-bottom: 30px;
+  }
+  .uno{
+    color: $graytx;
+    font-size: 12px;
+  }
+  .dos{
+    color: $bk;
+    font-size: 16px;
+  }
+}
+
+#parrafo{
+  padding: 60px 0px;
+  .parraf {
+    color: $graytx;
+    font-family: 'Nunito Light';
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 30px;
+  }
+}

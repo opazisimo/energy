@@ -7004,4 +7004,30 @@ footer {
 #contact .dos {
   padding: 3px 30px; }
 
+#titulo-proyectos {
+  padding: 40px 0px 60px 0px; }
+  #titulo-proyectos .titus {
+    color: #1e9496;
+    font-family: 'Bravo RG';
+    font-size: 25px; }
+  #titulo-proyectos .parraf {
+    font-family: 'Nunito Regular';
+    line-height: 20px;
+    margin-bottom: 30px; }
+  #titulo-proyectos .uno {
+    color: #6c6c6c;
+    font-size: 12px; }
+  #titulo-proyectos .dos {
+    color: #000000;
+    font-size: 16px; }
+
+#parrafo {
+  padding: 60px 0px; }
+  #parrafo .parraf {
+    color: #6c6c6c;
+    font-family: 'Nunito Light';
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 30px; }
+
 /*# sourceMappingURL=main.css.map */
