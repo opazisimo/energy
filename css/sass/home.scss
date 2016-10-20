@@ -3,6 +3,7 @@
     margin-bottom: 0px !important;
     padding: 0px 0px 30px 0px !important;
     background-color: $wh !important;
+    border: 1px solid $wh;
     .navbar-brand {
       img{
         width: 100%;
@@ -166,7 +167,7 @@
   }
 
 /* Trabaja con nosotros */
-  #contact{
+  .contact{
     padding: 50px 0px;
     background-image: url(../img/contacto.jpg);
     background-size: cover;

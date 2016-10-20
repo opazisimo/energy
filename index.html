@@ -9,24 +9,49 @@
 </head>
 <body>
 <!-- Navbar -->
-<nav class="navbar navbar-default">
-  <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="#"><img alt="Brand" src="img/logotipo/logo-mini.png"></a>
-    </div>
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">MENÚ <i class="fa fa-bars" aria-hidden="true"></i></a></li>
-      </ul>
-    </div>
-  </div>
-</nav>
+	<nav class="navbar navbar-default">
+	  <div class="container">
+	    <div class="navbar-header">
+	      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+	        <span class="sr-only">Toggle navigation</span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	      </button>
+	      <a class="navbar-brand" href="#"><img alt="Brand" src="img/logotipo/logo-mini.png"></a>
+	    </div>
+	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+	      <ul class="nav navbar-nav navbar-right">
+	        <li><a href="#myModal" type="button" data-toggle="modal" data-target="#myModal">MENÚ <i class="fa fa-bars" aria-hidden="true"></i></a></li>
+	      </ul>
+	    </div>
+	  </div>
+	</nav>
+
+<!-- Menu -->
+	<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+	  <div class="modal-dialog" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">CERRAR <i class="fa fa-times" aria-hidden="true"></i></span></button>
+	        <img src="img/logotipo/logo-wh.png" alt="">
+	      </div>
+	      <div class="modal-body">
+					<div id="menu">
+						<div class="black">
+							<div class="celeste text-center">
+								<a href="index.html">Inicio</a>
+								<a href="about.html">Quienes somos</a>
+								<a href="project-client.html">Proyectos y clientes</a>
+								<a href="work.html">trabaja con nosotros</a>
+								<a href="index.html#contact-prin">contáctanos</a>
+							</div>
+						</div>
+					</div>
+	      </div>
+	    </div>
+	  </div>
+	</div>
 <!-- Header -->
 	<header class="text-center">
 		<div class="container">
@@ -128,7 +153,7 @@
 		</div>
 	</section>
 <!-- Contacto-->
-	<section id="contact" class="bg-form">
+	<section id="contact-prin" class="contact bg-form">
 		<div class="container">
 			<div class="row">
 				<div class="col-xs-12 col-sm-12 col-md-12">

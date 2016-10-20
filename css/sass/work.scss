@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #contact {
   .boton{
     background-color: $lblue;
@@ -15,5 +16,286 @@
   }
   .dos{
     padding: 3px 30px;
+=======
+// work
+  #work{
+    padding: 50px 0px 80px 0px;
+  }
+  #contact {
+    .boton{
+      background-color: $lblue;
+      color: $wh;
+      border-radius: 0px !important;
+      font-family: 'Bravo SC';
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      font-size: 16px;
+      margin-top: 10px;
+      border: 0px;
+    }
+    .uno{
+      padding: 3px 60px;
+    }
+    .dos{
+      padding: 3px 30px;
+    }
+  }
+
+// Internal project
+
+  #titulo-proyectos{
+    padding: 40px 0px 60px 0px;
+    .titus {
+      color: $lblue;
+      font-family: 'Bravo RG';
+      font-size: 25px;
+    }
+    .parraf {
+      font-family: 'Nunito Regular';
+      line-height: 20px;
+      margin-bottom: 30px;
+    }
+    .uno{
+      color: $graytx;
+      font-size: 12px;
+    }
+    .dos{
+      color: $bk;
+      font-size: 16px;
+    }
+  }
+
+  #parrafo{
+    padding: 60px 0px;
+    .parraf {
+      color: $graytx;
+      font-family: 'Nunito Light';
+      font-size: 16px;
+      line-height: 20px;
+      margin-bottom: 30px;
+    }
+  }
+
+// About
+
+  .tradi{
+    margin-top: 30px;
+    .parrafillo {
+      color: $lblue;
+      font-family: 'Bravo RG';
+      font-size: 20px;
+      margin-top: 40px;
+    }
+  }
+
+  #equipo{
+    background: url(../img/pattern.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 80px 0px;
+    .titugral {
+      font-size: 40px;
+      margin: 0px 0px 50px 0px;
+    }
+    .cont-serv{
+      margin: 10px 0px;
+      .expli{
+        background-color: $wh;
+        margin-top: 10px;
+        height: 130px;
+        padding: 10px;
+        .sec{
+          font-size: 20px;
+          margin: 0px 0px 20px 0px;
+        }
+        .parraf {
+          color: $graytx;
+          font-family: 'Nunito Light';
+          font-size: 16px;
+          line-height: 20px;
+          margin-bottom: 30px;
+        }
+      }
+      img{
+        width: 100%;
+        margin-top: 10px;
+      }
+    }
+  }
+
+// Project-client
+
+/* Header */
+
+  #header-project {
+    background-image: url(../img/Proyectos-clientes.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 0px !important;
+    .interior{
+      padding:6% 30%;
+      .caja-wh{
+        padding: 25px 0px;
+        background-color: rgba(254,254,254,0.75);
+        .divider{
+          border: 1px solid $lblue;
+          width: 5%;
+          margin: 0 auto;
+        }
+        .bravo-title{
+          font-family: 'Bravo SC';
+          font-size: 40px;
+          text-transform: uppercase;
+          color: $bk;
+          margin: 10px;
+          letter-spacing: 1px;
+        }
+      }
+    }
+  }
+
+// Proyectos
+  #proyectos{
+    .filisima{
+      margin-top: 60px;
+    }
+    img {
+      width: 100%;
+    }
+    .text{
+      background-color: $snow;
+      padding: 15px 15px 50px 15px;
+      margin-top: 10px;
+      .titulisimo{
+      font-family: 'Nunito Bold';
+      }
+      .parraf{
+      font-family: 'Nunito Light';
+      color: $gray;
+      }
+      .moas{
+        color: $lblue;
+        font-family: 'Bravo RG';
+        letter-spacing: 1px;
+        font-size: 18px;
+        display: inline-block;
+        position: absolute;
+        bottom: 10px;
+        right: 50px;
+      }
+      .greenie{
+        border: 0.5px solid $lblue;
+        width: 70%;
+        display: inline-block;
+        position: absolute;
+        bottom: 5px;
+        left: 30px;
+      }
+      .dist{
+        margin-bottom: 30px;
+      }
+    }
+  }
+
+  .pagination{
+    li{
+      a{
+        border: 0px !important;
+        color: $lblue;
+        font-family: 'Bravo SC';
+        font-size: 20px;
+      }
+      span{
+        border: 0px !important;
+        color: $lblue;
+        font-family: 'Bravo SC';
+        font-size: 20px;
+      }
+    }
+  }
+
+// Team one
+  #profile{
+    img{
+      width: 100%;
+      margin: 30px 0px;
+    }
+  }
+
+  #redes{
+    background-color: $bl-menu;
+    padding: 40px 0px;
+    .titu{
+      color: $wh !important;
+    }
+    .boxi{
+      display: inline-block;
+      background-color: $wh;
+      padding: 10px;
+      width:40px;
+      height: 40px;
+      font-size: 20px;
+      line-height: 20px;
+      a{
+        color: $bl-menu;
+      }
+    }
+    .mid {
+      margin: 0px 15px;
+    }
+  }
+
+// Menu
+
+
+// Modal
+
+.modal {
+  .modal-header {
+     background:$bl-menu;
+     border-top-left-radius: 0px;
+     border-top-right-radius: 0px;
+     border: 0px !important;
+     img{
+      width: 30%;
+     }
+     .close{
+        color: $wh !important;
+        font-family: 'Bravo RG';
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-size: 20px;
+        margin: 20px 0px;
+        text-shadow: none;
+        opacity: 1;
+     }
+  }
+  .modal-body{
+    background-color:$bl-menu;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border: 0px !important;
+    .celeste{
+      padding: 5vh 5vw;
+      background-color: $bl-menu;
+      color: $wh;
+      padding: 5vh;
+      a{
+        color: $wh;
+        display: block;
+        font-family: 'Bravo RG';
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-size: 20px;
+      }
+      img{
+        width: 15%;
+        display: block;
+        margin: 0 auto;
+      }
+    }
+>>>>>>> master
   }
 }
