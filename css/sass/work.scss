@@ -1,4 +1,4 @@
-  // work
+// work
   #work{
     padding: 50px 0px 80px 0px;
   }
@@ -228,54 +228,50 @@
     }
   }
 
-// Menu
-
-
 // Modal
-
-.modal {
-  .modal-header {
-     background:$bl-menu;
-     border-top-left-radius: 0px;
-     border-top-right-radius: 0px;
-     border: 0px !important;
-     img{
-      width: 30%;
-     }
-     .close{
-        color: $wh !important;
-        font-family: 'Bravo RG';
-        text-transform: uppercase;
-        letter-spacing: 1px;
-        font-size: 20px;
-        margin: 20px 0px;
-        text-shadow: none;
-        opacity: 1;
-     }
-  }
-  .modal-body{
-    background-color:$bl-menu;
-    border-top-left-radius: 0px;
-    border-top-right-radius: 0px;
-    border: 0px !important;
-    .celeste{
-      padding: 5vh 5vw;
-      background-color: $bl-menu;
-      color: $wh;
-      padding: 5vh;
-      a{
+  .modal {
+    .modal-header {
+       background:$bl-menu;
+       border-top-left-radius: 0px;
+       border-top-right-radius: 0px;
+       border: 0px !important;
+       img{
+        width: 30%;
+       }
+       .close{
+          color: $wh !important;
+          font-family: 'Bravo RG';
+          text-transform: uppercase;
+          letter-spacing: 1px;
+          font-size: 20px;
+          margin: 20px 0px;
+          text-shadow: none;
+          opacity: 1;
+       }
+    }
+    .modal-body{
+      background-color:$bl-menu;
+      border-top-left-radius: 0px;
+      border-top-right-radius: 0px;
+      border: 0px !important;
+      .celeste{
+        padding: 5vh 5vw;
+        background-color: $bl-menu;
         color: $wh;
-        display: block;
-        font-family: 'Bravo RG';
-        text-transform: uppercase;
-        letter-spacing: 1px;
-        font-size: 20px;
-      }
-      img{
-        width: 15%;
-        display: block;
-        margin: 0 auto;
+        padding: 5vh;
+        a{
+          color: $wh;
+          display: block;
+          font-family: 'Bravo RG';
+          text-transform: uppercase;
+          letter-spacing: 1px;
+          font-size: 20px;
+        }
+        img{
+          width: 15%;
+          display: block;
+          margin: 0 auto;
+        }
       }
     }
   }
-}
