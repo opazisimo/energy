@@ -237,50 +237,49 @@
   }
 
 /* Media queries */
-
-@media (max-width: 900px) and (min-width: 290px) {
-  .navbar{
-    .links{
-      display: inline-block;
-    }
-    .navbar-header{
-      display: inline-block;
-    }
-    .navbar-brand {
-      img{
-        width: 80%;
+  @media (max-width: 900px) and (min-width: 290px) {
+    .navbar{
+      .links{
+        display: inline-block;
+      }
+      .navbar-header{
+        display: inline-block;
+      }
+      .navbar-brand {
+        img{
+          width: 80%;
+        }
+      }
+      .navbar-right{
+        display: inline-block;
+        li {
+            position: absolute;
+            right: 10px;
+            top: 10px;
+          a{
+            i {
+            }
+          }
+        }
       }
     }
-    .navbar-right{
-      display: inline-block;
-      li {
-          position: absolute;
-          right: 10px;
-          top: 10px;
-        a{
-          i {
+
+    header {
+      margin-top: 0px !important;
+      .interior{
+        padding:10% ;
+        .caja-wh{
+          padding: 25px 0px;
+          background-color: rgba(254,254,254,0.75);
+          .bravo-title{
+            font-family: 'Bravo SC';
+            font-size: 40px;
+            text-transform: uppercase;
+            color: $bk;
+            margin: 10px;
+            letter-spacing: 1px;
           }
         }
       }
     }
   }
-
-  header {
-    margin-top: 0px !important;
-    .interior{
-      padding:10% ;
-      .caja-wh{
-        padding: 25px 0px;
-        background-color: rgba(254,254,254,0.75);
-        .bravo-title{
-          font-family: 'Bravo SC';
-          font-size: 40px;
-          text-transform: uppercase;
-          color: $bk;
-          margin: 10px;
-          letter-spacing: 1px;
-        }
-      }
-    }
-  }
-}
