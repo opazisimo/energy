@@ -6603,7 +6603,7 @@ button.close {
     display: none !important; } }
 /*# sourceMappingURL=bootstrap.css.map */
 /* Variables */
-/* Tipograf├¡as */
+/* Tipografías */
 @font-face {
   font-family: 'Bravo SC';
   src: url("../fonts/BravoSC.otf");
@@ -6954,8 +6954,10 @@ footer {
         margin: 10px;
         letter-spacing: 1px; }
 
+#proyectos .proyes {
+  margin-bottom: 20px; }
 #proyectos .filisima {
-  margin-top: 60px; }
+  margin-top: 30px; }
 #proyectos img {
   width: 100%; }
 #proyectos .text {
@@ -6971,20 +6973,15 @@ footer {
     color: #1e9496;
     font-family: 'Bravo RG';
     letter-spacing: 1px;
-    font-size: 18px;
-    display: inline-block;
-    position: absolute;
-    bottom: 10px;
-    right: 50px; }
+    font-size: 18px; }
   #proyectos .text .greenie {
     border: 0.5px solid #1e9496;
-    width: 70%;
-    display: inline-block;
-    position: absolute;
-    bottom: 5px;
-    left: 30px; }
+    width: 100%; }
   #proyectos .text .dist {
     margin-bottom: 30px; }
+  #proyectos .text .abajo {
+    position: relative;
+    top: 20px; }
 
 .pagination li a {
   border: 0px !important;
